@@ -7,8 +7,10 @@ class Solution {
             map.put(nums[i], i);
 
         }
+        
         for(int i=0; i<nums.length;i++)
         {
+            
         int num = nums[i];
         int rem= target- num;
         if (map.containsKey(rem))
@@ -18,6 +20,7 @@ class Solution {
          return new int[]{i, index};
 
         }
+            
         }
         return new int[]{};
 
