@@ -1,6 +1,5 @@
 class Solution {
     public int mySqrt(int x) 
-    
     {
        long start=0;
        long end=x;
@@ -10,12 +9,10 @@ class Solution {
         if (mid*mid==x)
         {
             return (int)mid;
-
         }
         else if(mid*mid<x)
         {
             start=mid;
-
         }
         else
         {
