@@ -10,8 +10,7 @@ class Solution {
         // Dimensions of the matrix
         int rowCount = mat.length;
         int colCount = mat[0].length;
-
-        // Mapping from the value to its coordinates in the matrix
+   // Mapping from the value to its coordinates in the matrix
         Map<Integer, int[]> valueToIndexMap = new HashMap<>();
         for (int row = 0; row < rowCount; ++row) {
             for (int col = 0; col < colCount; ++col) {
