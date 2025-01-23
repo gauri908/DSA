@@ -1,4 +1,5 @@
-class Solution {
+class Solution
+    {
     public int countServers(int[][] grid) {
         int numRows = grid.length; // Number of rows in the grid
         int numCols = grid[0].length; // Number of columns in the grid
