@@ -8,6 +8,6 @@ class Solution {
            x = x / 10;
            sum = sum * 10 + temp;
         }
-        return sum == target;
+     return sum == target;
     }
 }
