@@ -9,7 +9,5 @@ class Solution {
            sum = sum * 10 + temp;
         }
         return sum == target;
-
-    
     }
 }
