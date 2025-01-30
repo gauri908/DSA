@@ -3,7 +3,6 @@ class Solution {
     private List<Integer> componentNodes = new ArrayList<>(); // List to store nodes of the currently visited component
     private boolean[] visited; // Array to track visited nodes
     private int totalNodes; // Total number of nodes in the graph
-
     // Method to compute the magnificent sets value for the given graph
     public int magnificentSets(int n, int[][] edges) {
         totalNodes = n;
