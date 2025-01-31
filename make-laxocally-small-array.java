@@ -8,7 +8,6 @@ class Solution {
         for (int i = 0; i < n; ++i) {
             indices[i] = i;
         }
-      
         // Sort the indices based on the values in 'nums' they point to.
         Arrays.sort(indices, Comparator.comparingInt(i -> nums[i]));
       
