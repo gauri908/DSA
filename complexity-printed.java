@@ -17,7 +17,6 @@ class Solution {
                 valueToIndexMap.put(mat[row][col], new int[]{row, col});
             }
         }
-
         // Arrays to keep track of the number of values found per row and column
         int[] rowCompletion = new int[rowCount];
         int[] colCompletion = new int[colCount];
