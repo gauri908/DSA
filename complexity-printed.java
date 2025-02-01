@@ -1,5 +1,4 @@
 class Solution {
-
     /**
      * Finds the first index in the input array where a complete row or column is found in the input matrix.
      * @param arr Single-dimensional array of integers.
