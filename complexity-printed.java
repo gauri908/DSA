@@ -30,7 +30,6 @@ class Solution {
             // Increment the counters for the row and column
             rowCompletion[rowIndex]++;
             colCompletion[colIndex]++;
-
             // Check if the current row or column is completed
             if (rowCompletion[rowIndex] == colCount || colCompletion[colIndex] == rowCount) {
                 // Return the current index if a row or column is complete
